@@ -1,63 +1,72 @@
 [
   {
+    "id": "01",
     "name": "Introduction to C Programming",
-    "image": "https://ibb.co/8YqGSs3",
+    "image": "https://i.ibb.co/mcV7Mj5/image.png",
     "price": 15000,
     "credit": "1hr",
     "description": "Learn the fundamentals of C programming and start your journey into the world of programming."
   },
   {
+    "id": "02",
     "name": "Introduction to Algorithms",
-    "image": "https://ibb.co/HDDb8qP",
+    "image": "https://i.ibb.co/DDDv2QM/image.png",
     "price": 25000,
     "credit": "2hr",
     "description": "Explore the essential algorithms that power the world of computing and problem-solving."
   },
   {
+    "id": "03",
     "name": "Introduction to C++ for DSA",
-    "image": "https://ibb.co/bLK5gWr",
+    "image": "https://i.ibb.co/Mc9gtPp/image.png",
     "price": 10000,
     "credit": "10hr",
     "description": "Master C++ and its applications in Data Structures and Algorithms (DSA)."
   },
   {
+    "id": "04",
     "name": "Basic Data Structures",
-    "image": "https://ibb.co/G0M1Pj6",
+    "image": "https://i.ibb.co/vHdrz8F/image.png",
     "price": 35000,
     "credit": "5hr",
     "description": "Build a strong foundation in essential data structures for efficient programming."
   },
   {
+    "id": "05",
     "name": "Introduction to OOP Python",
-    "image": "https://ibb.co/ByybMWh",
+    "image": "https://i.ibb.co/k44jCbL/image.png",
     "price": 19000,
     "credit": "5hr",
     "description": "Dive into Object-Oriented Programming (OOP) with Python for real-world applications."
   },
   {
+    "id": "06",
     "name": "Software Engineering",
-    "image": "https://ibb.co/ByybMWh",
+    "image": "https://i.ibb.co/pWVw0Kc/image.png",
     "price": 23000,
     "credit": "2hr",
     "description": "Learn the principles and practices of software engineering for building robust software systems."
   },
   {
+    "id": "07",
     "name": "AWS, Cloud Computing",
-    "image": "https://ibb.co/PFDcLyt",
+    "image": "https://i.ibb.co/fqDkgWQ/image.png",
     "price": 35000,
     "credit": "5hr",
     "description": "Get hands-on experience with Amazon Web Services (AWS) cloud computing platform."
   },
   {
+    "id": "08",
     "name": "Database (MySQL)",
-    "image": "https://ibb.co/s5qWTGt",
+    "image": "https://i.ibb.co/KNWKtkm/image.png",
     "price": 19000,
     "credit": "5hr",
     "description": "Master the MySQL database management system for efficient data storage and retrieval."
   },
   {
+    "id": "09",
     "name": "Problem-Solving Part",
-    "image": "https://ibb.co/hg7NYR4",
+    "image": "https://i.ibb.co/rQ7hdGz/image.png",
     "price": 23000,
     "credit": "2hr",
     "description": "Enhance your problem-solving skills and tackle complex challenges with confidence."
