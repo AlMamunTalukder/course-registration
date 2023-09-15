@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Introduction to C Programming",
+    "image": "https://ibb.co/8YqGSs3",
+    "price": 15000,
+    "credit": "1hr",
+    "description": "Learn the fundamentals of C programming and start your journey into the world of programming."
+  },
+  {
+    "name": "Introduction to Algorithms",
+    "image": "https://ibb.co/HDDb8qP",
+    "price": 25000,
+    "credit": "2hr",
+    "description": "Explore the essential algorithms that power the world of computing and problem-solving."
+  },
+  {
+    "name": "Introduction to C++ for DSA",
+    "image": "https://ibb.co/bLK5gWr",
+    "price": 10000,
+    "credit": "10hr",
+    "description": "Master C++ and its applications in Data Structures and Algorithms (DSA)."
+  },
+  {
+    "name": "Basic Data Structures",
+    "image": "https://ibb.co/G0M1Pj6",
+    "price": 35000,
+    "credit": "5hr",
+    "description": "Build a strong foundation in essential data structures for efficient programming."
+  },
+  {
+    "name": "Introduction to OOP Python",
+    "image": "https://ibb.co/ByybMWh",
+    "price": 19000,
+    "credit": "5hr",
+    "description": "Dive into Object-Oriented Programming (OOP) with Python for real-world applications."
+  },
+  {
+    "name": "Software Engineering",
+    "image": "https://ibb.co/ByybMWh",
+    "price": 23000,
+    "credit": "2hr",
+    "description": "Learn the principles and practices of software engineering for building robust software systems."
+  },
+  {
+    "name": "AWS, Cloud Computing",
+    "image": "https://ibb.co/PFDcLyt",
+    "price": 35000,
+    "credit": "5hr",
+    "description": "Get hands-on experience with Amazon Web Services (AWS) cloud computing platform."
+  },
+  {
+    "name": "Database (MySQL)",
+    "image": "https://ibb.co/s5qWTGt",
+    "price": 19000,
+    "credit": "5hr",
+    "description": "Master the MySQL database management system for efficient data storage and retrieval."
+  },
+  {
+    "name": "Problem-Solving Part",
+    "image": "https://ibb.co/hg7NYR4",
+    "price": 23000,
+    "credit": "2hr",
+    "description": "Enhance your problem-solving skills and tackle complex challenges with confidence."
+  }
+]
