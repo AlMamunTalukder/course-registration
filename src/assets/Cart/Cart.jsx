@@ -4,7 +4,7 @@ import React from "react";
 
 const Cart = ({ remaining, selectedCourse, totalHour }) => {
   return (
-    <div>
+    <div className="cart-container">
       <h5>Credit Hour Remaining {remaining} hr </h5>
       <hr />
       <h3>Course Name ({selectedCourse.length})</h3>
@@ -16,6 +16,8 @@ const Cart = ({ remaining, selectedCourse, totalHour }) => {
       </ol>
       <hr />
       <h5>Total Credit Hour: {totalHour}</h5>
+      <hr />
+      <h5>Total Price: </h5>
     </div>
   );
 };

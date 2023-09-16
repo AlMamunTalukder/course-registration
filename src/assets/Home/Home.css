@@ -36,4 +36,9 @@ body {
 
 .cart {
   width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  height: auto;
+  margin-left: 25px;
 }

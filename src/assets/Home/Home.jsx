@@ -1,12 +1,14 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Cart from "../Cart/Cart";
 import "./Home.css";
 
 const Home = () => {
   const [course, setCourse] = useState([]);
   const [selectedCourse, setSelectedCourse] = useState([]);
-  const [remaining, setRemaining] = useState(0);
+  const [remaining, setRemaining] = useState(20);
   const [totalHour, setTotalHour] = useState(0);
 
   useEffect(() => {
@@ -25,7 +27,7 @@ const Home = () => {
     let count = course.credit;
 
     if (isExit) {
-      alert("You Already Booked it.");
+      toast.error("You Already Booked it.");
     } else {
       selectedCourse.forEach((item) => {
         count += item.credit;
@@ -36,7 +38,7 @@ const Home = () => {
       console.log(remaining);
 
       if (count > 20) {
-        alert("no credit hour remaining...");
+        toast.error("No credit hour remaining...");
       } else {
         setRemaining(remaining);
         setTotalHour(count);
@@ -72,6 +74,7 @@ const Home = () => {
       </div>
 
       <div className="cart">
+        <ToastContainer />
         <Cart
           remaining={remaining}
           selectedCourse={selectedCourse}
