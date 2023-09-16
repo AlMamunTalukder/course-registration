@@ -6,7 +6,7 @@ import "./Home.css";
 const Home = () => {
   const [course, setCourse] = useState([]);
   const [selectedCourse, setSelectedCourse] = useState([]);
-  const [remaining, setRemaining] = useState(20);
+  const [remaining, setRemaining] = useState(0);
   const [totalHour, setTotalHour] = useState(0);
 
   useEffect(() => {
@@ -15,23 +15,32 @@ const Home = () => {
       .then((data) => setCourse(data));
   }, []);
 
+  const getTotalCreditHours = () => {
+    return selectedCourse.reduce((total, course) => total + course.credit, 0);
+  };
+
   const handleSelectedCourse = (course) => {
     const isExit = selectedCourse.find((item) => item.id === course.id);
+
+    let count = course.credit;
 
     if (isExit) {
       alert("You Already Booked it.");
     } else {
-      const count = totalHour + course.credit;
+      selectedCourse.forEach((item) => {
+        count += item.credit;
+      });
+
+      const remaining = 20 - count;
+
+      console.log(remaining);
 
       if (count > 20) {
-        alert("No more hours to buy courses.");
+        alert("no credit hour remaining...");
       } else {
-        const remaining = 20 - count;
-
         setRemaining(remaining);
-
-        setSelectedCourse([...selectedCourse, course]);
         setTotalHour(count);
+        setSelectedCourse([...selectedCourse, course]);
       }
     }
   };

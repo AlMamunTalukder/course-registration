@@ -1,74 +1,74 @@
 [
   {
-    "id": "01",
+    "id": 1,
     "name": "Introduction to C Programming",
     "image": "https://i.ibb.co/mcV7Mj5/image.png",
     "price": 15000,
-    "credit": "1",
+    "credit": 1,
     "description": "Learn the fundamentals of C programming and start your journey into the world of programming."
   },
   {
-    "id": "02",
+    "id": 2,
     "name": "Introduction to Algorithms",
     "image": "https://i.ibb.co/DDDv2QM/image.png",
     "price": 25000,
-    "credit": "2",
+    "credit": 2,
     "description": "Explore the essential algorithms that power the world of computing and problem-solving."
   },
   {
-    "id": "03",
+    "id": 3,
     "name": "Introduction to C++ for DSA",
     "image": "https://i.ibb.co/Mc9gtPp/image.png",
     "price": 10000,
-    "credit": "10",
+    "credit": 10,
     "description": "Master C++ and its applications in Data Structures and Algorithms (DSA)."
   },
   {
-    "id": "04",
+    "id": 4,
     "name": "Basic Data Structures",
     "image": "https://i.ibb.co/vHdrz8F/image.png",
     "price": 35000,
-    "credit": "5",
+    "credit": 5,
     "description": "Build a strong foundation in essential data structures for efficient programming."
   },
   {
-    "id": "05",
+    "id": 5,
     "name": "Introduction to OOP Python",
     "image": "https://i.ibb.co/k44jCbL/image.png",
     "price": 19000,
-    "credit": "5",
+    "credit": 5,
     "description": "Dive into Object-Oriented Programming (OOP) with Python for real-world applications."
   },
   {
-    "id": "06",
+    "id": 6,
     "name": "Software Engineering",
     "image": "https://i.ibb.co/pWVw0Kc/image.png",
     "price": 23000,
-    "credit": "2",
+    "credit": 2,
     "description": "Learn the principles and practices of software engineering for building robust software systems."
   },
   {
-    "id": "07",
+    "id": 7,
     "name": "AWS, Cloud Computing",
     "image": "https://i.ibb.co/fqDkgWQ/image.png",
     "price": 35000,
-    "credit": "5",
+    "credit": 5,
     "description": "Get hands-on experience with Amazon Web Services (AWS) cloud computing platform."
   },
   {
-    "id": "08",
+    "id": 8,
     "name": "Database (MySQL)",
     "image": "https://i.ibb.co/KNWKtkm/image.png",
     "price": 19000,
-    "credit": "5",
+    "credit": 5,
     "description": "Master the MySQL database management system for efficient data storage and retrieval."
   },
   {
-    "id": "09",
+    "id": 9,
     "name": "Problem-Solving Part",
     "image": "https://i.ibb.co/rQ7hdGz/image.png",
     "price": 23000,
-    "credit": "2",
+    "credit": 2,
     "description": "Enhance your problem-solving skills and tackle complex challenges with confidence."
   }
 ]
