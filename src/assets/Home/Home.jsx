@@ -5,9 +5,9 @@ import "./Home.css";
 
 const Home = () => {
   const [course, setCourse] = useState([]);
-  const [selectedCourse, SetSelectedCourse] = useState([]);
-  const [remaining, SetRemaining] = useState(20);
-  const [totalHour, SetTotalHour] = useState(0);
+  const [selectedCourse, setSelectedCourse] = useState([]);
+  const [remaining, setRemaining] = useState(20);
+  const [totalHour, setTotalHour] = useState(0);
 
   useEffect(() => {
     fetch("./course.json")
@@ -16,25 +16,22 @@ const Home = () => {
   }, []);
 
   const handleSelectedCourse = (course) => {
-    const isExit = selectedCourse.find((item) => item.id == course.id);
-
-    let count = course.price;
+    const isExit = selectedCourse.find((item) => item.id === course.id);
 
     if (isExit) {
-      return alert("You Already Booked it.");
+      alert("You Already Booked it.");
     } else {
-      selectedCourse.forEach((item) => {
-        count += item.price;
-      });
-
-      const remaining = 20 - count;
+      const count = totalHour + course.credit;
 
       if (count > 20) {
-        return alert("no more hour to buy course..");
+        alert("No more hours to buy courses.");
       } else {
-        SetRemaining(remaining);
-        SetSelectedCourse([...selectedCourse, course]);
-        SetTotalHour(count);
+        const remaining = 20 - count;
+
+        setRemaining(remaining);
+
+        setSelectedCourse([...selectedCourse, course]);
+        setTotalHour(count);
       }
     }
   };
@@ -59,8 +56,7 @@ const Home = () => {
               onClick={() => handleSelectedCourse(courseName)}
               className="card-btn"
             >
-              {" "}
-              Select{" "}
+              Select
             </button>
           </div>
         ))}

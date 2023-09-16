@@ -6,11 +6,16 @@ const Cart = ({ remaining, selectedCourse, totalHour }) => {
   return (
     <div>
       <h5>Credit Hour Remaining {remaining} hr </h5>
-      <h3>Course Name {selectedCourse}</h3>
+      <hr />
+      <h3>Course Name ({selectedCourse.length})</h3>
+
+      <ol>
+        {selectedCourse.map((course) => (
+          <li key={course.id}>{course.name}</li>
+        ))}
+      </ol>
+      <hr />
       <h5>Total Credit Hour: {totalHour}</h5>
-      {selectedCourse.map((courseName) => (
-        <li key={courseName.id}>{courseName.name}</li>
-      ))}
     </div>
   );
 };
