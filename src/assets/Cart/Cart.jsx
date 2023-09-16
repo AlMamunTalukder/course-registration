@@ -15,7 +15,7 @@ const Cart = ({ remaining, selectedCourse, totalHour }) => {
         ))}
       </ol>
       <hr />
-      <h5>Total Credit Hour: {totalHour}</h5>
+      <h5>Total Credit Hour: {totalHour}hr</h5>
       <hr />
       <h5>Total Price: </h5>
     </div>
