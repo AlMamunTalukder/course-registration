@@ -5,10 +5,6 @@ body {
   background-blend-mode: overlay;
 }
 
-/* .photo {
-  width: 80px;
-  border-radius: 50px;
-}*/
 .info {
   display: flex;
   justify-content: space-evenly;
@@ -24,19 +20,20 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  /* width: 800px; */
+  justify-content: space-between;
+
+  max-width: 100%;
 }
 .card {
   background-color: white;
   color: black;
-  /* width: calc(50%-50px); */
-  width: 300px;
-  height: 350px;
-
+  flex-basis: calc(33.33% - 20px);
+  height: auto;
   border-radius: 5px;
-  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 .cart {
-  width: 1000px;
+  width: 100%;
 }
